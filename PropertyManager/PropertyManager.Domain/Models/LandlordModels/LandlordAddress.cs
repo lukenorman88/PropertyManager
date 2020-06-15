@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PropertyManager.Domain.Models
+﻿namespace PropertyManager.Domain.Models
 {
-    class LandlordAddress
+    public class LandlordAddress : Address
     {
+        public string LandlordId { get; set; }
+
+        //Navigation properties
+        public virtual Landlord Landlord { get; set; }
     }
 }
