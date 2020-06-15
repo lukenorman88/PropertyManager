@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyManager.Infrastruct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyManager.Infrastructure.Security", "PropertyManager.Infrastructure.Security\PropertyManager.Infrastructure.Security.csproj", "{70BFAD37-7C50-4FCC-80B0-6D7999896447}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyManager.WebApi", "PropertyManager.WebApi\PropertyManager.WebApi.csproj", "{47F6EFF6-6445-4838-9A06-978B9E179962}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{70BFAD37-7C50-4FCC-80B0-6D7999896447}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70BFAD37-7C50-4FCC-80B0-6D7999896447}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70BFAD37-7C50-4FCC-80B0-6D7999896447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F6EFF6-6445-4838-9A06-978B9E179962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F6EFF6-6445-4838-9A06-978B9E179962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F6EFF6-6445-4838-9A06-978B9E179962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F6EFF6-6445-4838-9A06-978B9E179962}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
